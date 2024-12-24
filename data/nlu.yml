@@ -1,0 +1,85 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - hii
+    - HII
+    - hello
+    - What's up
+    - good morning
+    - good afternoon
+    - how r u?
+    - Hey there
+    - Good evening
+    - What's up?
+    - can you help me
+    - Help Me
+    - I need help
+    - I Need Help
+
+- intent: ask_question
+  examples: |
+    - What is [Python](topic)?
+    - Explain [data science](topic).
+    - I want to learn about [AI](topic).
+    - Could you tell me about [linear regression](topic)?
+    - Define {topic}?
+    - what is (topic)?
+    - explain me about (topic)
+    - Today i want to learn (topic)
+
+- intent: ask_reference
+  examples: |
+    - Can you provide references for [Python](topic)?
+    - Where can I find resources for [machine learning](topic)?
+    - Do you have any links for [data science](topic)?
+    - provide references for (topic)
+    - provide the link for (topic)
+    - links for (topic)
+
+- intent: register_course
+  examples: |
+    - I want to register for [Python Basics](course)
+    - Enroll me in [Data Science](course)
+    - Register for [Machine Learning](course)
+    - Add [Web Development](course) to my courses
+
+- intent: fetch_enrolled_courses
+  examples: |
+    - What courses am I enrolled in?
+    - Show me my registered courses
+    - List my courses
+    - Which courses have I signed up for?
+
+- intent: course_progress
+  examples: |
+    - What is my progress in [Python Basics](course)?
+    - How far am I in [Data Science](course)?
+    - Progress in [Machine Learning](course)?
+    - Show progress in [Web Development](course)
+
+- intent: feedback_positive
+  examples: |
+    - Thank you, that was helpful.
+    - Great explanation.
+    - Awesome, thanks.
+    - It helped me
+    - Thanks,
+
+- intent: feedback_negative
+  examples: |
+    - That wasn't helpful.
+    - I don't understand.
+    - Could you explain better?
+    - you are bad
+    - not proper answer
+
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - Bye
+    - See you later
+    - Talk to you soon
+    - catch you

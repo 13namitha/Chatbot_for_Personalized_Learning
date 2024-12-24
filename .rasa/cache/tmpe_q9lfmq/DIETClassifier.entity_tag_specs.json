@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-goal",
+      "2": "I-goal",
+      "3": "L-goal",
+      "4": "U-goal",
+      "5": "B-name",
+      "6": "I-name",
+      "7": "L-name",
+      "8": "U-name",
+      "9": "B-topic",
+      "10": "I-topic",
+      "11": "L-topic",
+      "12": "U-topic",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-goal": 1,
+      "I-goal": 2,
+      "L-goal": 3,
+      "U-goal": 4,
+      "B-name": 5,
+      "I-name": 6,
+      "L-name": 7,
+      "U-name": 8,
+      "B-topic": 9,
+      "I-topic": 10,
+      "L-topic": 11,
+      "U-topic": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

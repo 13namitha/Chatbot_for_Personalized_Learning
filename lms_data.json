@@ -1,0 +1,72 @@
+{
+    "Python": [
+        {
+            "name": "Official Python Documentation",
+            "url": "https://docs.python.org/"
+        },
+        {
+            "name": "Python Tutorials",
+            "url": "https://www.w3schools.com/python/"
+        },
+        {
+            "name": "Real Python Tutorials",
+            "url": "https://realpython.com/"
+        }
+    ],
+    "Data Science": [
+        {
+            "name": "Kaggle Learn",
+            "url": "https://www.kaggle.com/learn"
+        },
+        {
+            "name": "Data Science Guide",
+            "url": "https://www.datascienceguide.org/"
+        },
+        {
+            "name": "Coursera Data Science Courses",
+            "url": "https://www.coursera.org/courses?query=data%20science"
+        }
+    ],
+    "AI": [
+        {
+            "name": "AI Overview by IBM",
+            "url": "https://www.ibm.com/cloud/learn/what-is-artificial-intelligence"
+        },
+        {
+            "name": "Stanford AI Lab",
+            "url": "https://ai.stanford.edu/"
+        },
+        {
+            "name": "AI Resources on Towards Data Science",
+            "url": "https://towardsdatascience.com/tagged/artificial-intelligence"
+        }
+    ],
+    "Linear Regression": [
+        {
+            "name": "Linear Regression Basics",
+            "url": "https://www.statisticssolutions.com/linear-regression/"
+        },
+        {
+            "name": "Introduction to Linear Regression by Analytics Vidhya",
+            "url": "https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/"
+        },
+        {
+            "name": "Scikit-learn Linear Regression",
+            "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html"
+        }
+    ],
+    "Machine Learning": [
+        {
+            "name": "Scikit-learn Documentation",
+            "url": "https://scikit-learn.org/stable/"
+        },
+        {
+            "name": "Google Machine Learning Crash Course",
+            "url": "https://developers.google.com/machine-learning/crash-course"
+        },
+        {
+            "name": "Machine Learning Coursera Specialization",
+            "url": "https://www.coursera.org/specializations/machine-learning"
+        }
+    ]
+}

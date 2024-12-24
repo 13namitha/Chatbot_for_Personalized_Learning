@@ -1,0 +1,21 @@
+{
+    "Python": {
+        "answer": "Python is a versatile programming language.\n Python is a high-level, versatile, and easy-to-learn programming language widely used for various applications, such as:\n\nKey Features of Python:\nEase of Learning: Python has a simple and clean syntax similar to natural language, making it beginner-friendly.\nInterpreted Language: It doesn’t require compilation before execution, making it suitable for rapid development and testing.\nExtensive Libraries: Python has a vast standard library and numerous third-party libraries that support a wide range of applications, such as data analysis, web development, artificial intelligence, and more.\nCross-Platform: Python code can run on multiple operating systems (Windows, macOS, Linux) without modification.\nCommunity Support: Python has a large and active community, providing abundant resources, tutorials, and forums for learning and troubleshooting.\nCommon Uses:\nWeb Development: Frameworks like Django and Flask make it easy to build web applications.\nData Science and Machine Learning: Libraries like NumPy, pandas, TensorFlow, and scikit-learn are popular in these domains.\nAutomation/Scripting: Python can automate repetitive tasks, such as data scraping or system operations.\nGame Development: Python supports game development through libraries like Pygame.\nEmbedded Systems: It can even work in embedded systems and IoT devices."
+    },
+    "data science": {
+        "answer": "Data science involves analyzing and interpreting complex data."
+
+    },
+    "AI": {
+        "answer": "AI stands for Artificial Intelligence, enabling machines to mimic human intelligence."
+
+    },
+    "Linear Regression": {
+        "answer": "Linear regression is a statistical method to model relationships between variables."
+
+    },
+    "Machine Learning": {
+        "answer": "Machine learning enables systems to learn from data without being explicitly programmed."
+
+    }
+}

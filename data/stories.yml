@@ -1,0 +1,44 @@
+version: "3.1"
+stories:
+- story: greet and ask question
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_question
+  - action: action_fetch_lms
+
+- story: ask question
+  steps:
+  - intent: ask_question
+  - action: action_fetch_lms
+
+- story: ask references
+  steps:
+  - intent: ask_reference
+  - action: action_fetch_lms_reference
+- story: Register a course
+  steps:
+    - intent: register_course
+    - action: action_register_course
+
+- story: Fetch enrolled courses
+  steps:
+    - intent: fetch_enrolled_courses
+    - action: action_show_enrollments
+
+- story: Get course progress
+  steps:
+    - intent: course_progress
+    - action: action_fetch_course_progress
+
+- story: provide feedback
+  steps:
+  - intent: feedback_positive
+  - action: utter_thank_feedback
+  - intent: feedback_negative
+  - action: utter_request_clarification
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

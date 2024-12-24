@@ -1,0 +1,61 @@
+version: "3.1"
+intents:
+  - greet
+  - ask_question
+  - ask_reference
+  - feedback_positive
+  - feedback_negative
+  - goodbye
+  - register_course
+  - fetch_enrolled_courses
+  - course_progress
+
+entities:
+  - topic
+  - course
+slots:
+  topic:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: topic
+  course:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: course
+actions:
+  - action_fetch_lms
+  - action_fetch_lms_reference
+  - action_register_course
+  - action_show_enrollments
+  - action_fetch_course_progress
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you with your learning today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_thank_feedback:
+    - text: "I'm glad I could help! Let me know if you need anything else."
+  utter_course_registered:
+    - text: "You have been successfully registered for the course: {course}."
+
+  utter_enrolled_courses:
+    - text: "Here are your enrolled courses:\n{courses}"
+
+  utter_course_progress:
+    - text: "Your progress in {course} is {progress}%."
+
+  utter_no_courses:
+    - text: "You are not enrolled in any courses yet."
+
+  utter_course_not_found:
+    - text: "You are not enrolled in {course}."
+
+  utter_request_clarification:
+    - text: "I'm sorry about that. Could you clarify what you'd like to know more about?"
+
+

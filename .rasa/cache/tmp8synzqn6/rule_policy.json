@@ -1,0 +1,22 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"feedback_positive\"}}]": "utter_thank_feedback",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"feedback_positive\"}}, {\"prev_action\": {\"action_name\": \"utter_thank_feedback\"}, \"user\": {\"intent\": \"feedback_positive\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_goal\"}}]": "action_store_goal",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_goal\"}}, {\"prev_action\": {\"action_name\": \"action_store_goal\"}, \"user\": {\"intent\": \"set_goal\"}}]": "utter_goal_set",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_goal\"}}, {\"prev_action\": {\"action_name\": \"action_store_goal\"}, \"user\": {\"intent\": \"set_goal\"}}, {\"prev_action\": {\"action_name\": \"utter_goal_set\"}, \"user\": {\"intent\": \"set_goal\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"request_progress\"}}]": "action_check_progress",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"request_progress\"}}, {\"prev_action\": {\"action_name\": \"action_check_progress\"}, \"user\": {\"intent\": \"request_progress\"}}]": "utter_progress",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"request_progress\"}}, {\"prev_action\": {\"action_name\": \"action_check_progress\"}, \"user\": {\"intent\": \"request_progress\"}}, {\"prev_action\": {\"action_name\": \"utter_progress\"}, \"user\": {\"intent\": \"request_progress\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart",
+      "predicting default action with intent back"
+    ]
+  }
+}
