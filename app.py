@@ -31,7 +31,7 @@ def get_rasa_response(user_message):
         return []
 
 # Initialize the Streamlit app
-st.title("Customized Chatbot")
+st.title("Chatbot for Personalized learning")
 
 # Load LMS data
 lms_data = load_lms_data()
