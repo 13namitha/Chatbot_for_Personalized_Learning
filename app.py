@@ -3,6 +3,7 @@ import requests
 import json
 from streamlit_chat import message
 
+
 # Define constants
 RASA_URL = "http://localhost:5005/webhooks/rest/webhook"  # Update with your Rasa server URL
 LMS_FILE = "lms_data.json"  # Path to the JSON file containing links
@@ -75,3 +76,12 @@ for i, msg in enumerate(st.session_state.messages):
         message(msg["content"], is_user=True, key=f"user_{i}")
     else:
         message(msg["content"], key=f"bot_{i}")
+# Add sidebar with additional information
+with st.sidebar:
+    st.header("About Learning Assistant")
+    st.write("This chatbot helps you find the right programming courses based on interests.")
+    st.write("Try asking about:")
+    st.write("- Python")
+    st.write("- Data Science")
+    st.write("- Machine Learning")
+    st.write("- Artificial Intelligence")

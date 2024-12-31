@@ -1,17 +1,8 @@
 {
     "Python": [
-        {
-            "name": "Official Python Documentation",
-            "url": "https://docs.python.org/"
-        },
-        {
-            "name": "Python Tutorials",
-            "url": "https://www.w3schools.com/python/"
-        },
-        {
-            "name": "Real Python Tutorials",
-            "url": "https://realpython.com/"
-        }
+        {"name": "Official Python Documentation","url": "https://docs.python.org/"},
+        {"name": "Python Tutorials","url": "https://www.w3schools.com/python/"},
+        {"name": "Real Python Tutorials","url": "https://realpython.com/"}
     ],
     "Data Science": [
         {
